@@ -39,7 +39,8 @@ body * {
 }
 
 #container {
-    width: 360px;
+    width: 100%; /*ajuste da largura do container - até q alcance 100% de 588px*/ 
+    max-width: 588px;
     /*height: 712px; altura aumenta de acordo com itens q são colocados*/
     margin: 30px auto 0px;
     padding: 0 24px;
